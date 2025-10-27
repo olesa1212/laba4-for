@@ -3,7 +3,7 @@ int a= Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("введите конечное число");
 int b= Convert.ToInt32(Console.ReadLine());
 int c = 0;
-for (int i = 0; a < b; i++)
+for (int i = a; i < b; i++)
 {
     if (i % 12 == 0)
     {
@@ -11,4 +11,5 @@ for (int i = 0; a < b; i++)
     }
 }
     Console.WriteLine(c);
+
 
